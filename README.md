@@ -1,0 +1,122 @@
+# JavaAssignment
+
+A collection of Java practice programs covering fundamental programming concepts
+including loops, arrays, strings, sorting, searching, recursion, matrices, OOP,
+and algorithmic problem-solving.
+
+## Prerequisites
+
+- [Java JDK 8+](https://www.oracle.com/java/technologies/downloads/) (for compilation and execution)
+
+## Compilation & Execution
+
+Each program is in its own folder. To compile and run any program:
+
+```bash
+cd <program-folder>
+javac <ProgramName>.java
+java <ProgramName>
+```
+
+Some programs take command-line arguments (e.g., `StrongNumber`).
+Programs requiring user input will prompt interactively.
+
+## Programs
+
+### Basic Programs
+
+| Program | Description |
+|---------|-------------|
+| [`SimpleCalculator`](SimpleCalculator/) | Performs addition, subtraction, multiplication, and division based on user input using a switch statement |
+| [`SwapWithoutVars`](SwapWithoutVars/) | Swaps two integers without using a temporary variable (arithmetic method) |
+| [`SumOfDigits`](SumOfDigits/) | Computes the sum of all digits in a given integer |
+| [`LeapYearCheck`](LeapYearCheck/) | Determines if a year is a leap year using the standard Gregorian rule |
+| [`OddCount`](OddCount/) | Counts the number of odd integers between 1 and 500 |
+
+### Number Theory
+
+| Program | Description |
+|---------|-------------|
+| [`ArmstrongCheck`](ArmstrongCheck/) | Checks if a number is an Armstrong number (sum of its digits raised to the power of digit count) |
+| [`StrongNumber`](StrongNumber/) | Checks if a number is a Strong number (sum of factorial of its digits equals the number) |
+| [`PrimeNumbersGeneration`](PrimeNumbersGeneration/) | Prints all prime numbers between 1 and 500 using brute-force divisibility checking |
+| [`FibbonaciSeries`](FibbonaciSeries/) | Generates the Fibonacci series up to a user-specified number of terms |
+
+### String Manipulation
+
+| Program | Description |
+|---------|-------------|
+| [`Palindrome`](Palindrome/) | Checks if a given string is a palindrome (reads the same forwards and backwards) |
+| [`AnagramCheck`](AnagramCheck/) | Checks if two strings are anagrams (same characters with same frequencies) |
+| [`Password`](Password/) | Classifies a password as Strong or Weak based on length and character type requirements |
+| [`NumToString`](NumToString/) | Converts each digit of a number to its English word representation |
+| [`UsernameGenerator`](UsernameGenerator/) | Generates a username by concatenating first and last names with a dot separator |
+| [`VowelsConsonants`](VowelsConsonants/) | Counts the number of vowels and consonants in a given word |
+| [`wordLetterCount`](wordLetterCount/) | Prints each character of a sentence on a separate line and counts words and letters |
+| [`Reverse`](Reverse/) | Reverses each word in a sentence using StringTokenizer and StringBuilder |
+| [`NameSort`](NameSort/) | Sorts a list of names alphabetically using bubble sort |
+
+### Array Operations
+
+| Program | Description |
+|---------|-------------|
+| [`ArrayMultiplication`](ArrayMultiplication/) | Multiplies two matrices |
+| [`MatrixTranspose`](MatrixTranspose/) | Reads a matrix and prints both the original and its transpose |
+| [`UpperDiag`](UpperDiag/) | Displays the upper triangular portion of a matrix (including diagonal) |
+| [`LowerDiag`](LowerDiag/) | Displays the lower triangular portion of a matrix (excluding diagonal) |
+| [`ProductDiag`](ProductDiag/) | Computes the product of all elements on the main diagonal of a square matrix |
+| [`SumEnd4`](SumEnd4/) | Sums all matrix elements whose last digit (units place) is 4 |
+| [`2DarraySort`](2DarraySort/) | Sorts all elements of a 2D matrix in ascending order using brute-force comparison |
+| [`TwoDArraySearch`](TwoDArraySearch/) | Searches for a target number in a 2D array and prints its coordinates |
+
+### Sorting Algorithms
+
+| Program | Description |
+|---------|-------------|
+| [`BubbleSort`](BubbleSort/) | Sorts an integer array using bubble sort with early-exit optimization |
+| [`InsertionSort`](InsertionSort/) | Sorts an integer array using insertion sort |
+| [`SelectionSort`](SelectionSort/) | Sorts an integer array using selection sort |
+| [`MergeSort`](MergeSort/) | Sorts an integer array using merge sort (divide and conquer) |
+
+### Searching Algorithms
+
+| Program | Description |
+|---------|-------------|
+| [`LinearSearch`](LinearSearch/) | Searches for a target in an array by checking each element sequentially |
+| [`BinarySearch`](BinarySearch/) | Searches a sorted array iteratively using binary search |
+| [`BinarySearchRecursive`](BinarySearchRecursive/) | Searches a sorted array recursively using binary search |
+
+### Series & Summations
+
+| Program | Description |
+|---------|-------------|
+| [`Series1`](Series1/) | Computes the sum of the series (i^2 / i!) for i from 1 to a given range |
+| [`Series2`](Series2/) | Computes the sum of the alternating series 1 - 3 + 5 - 7 + ... up to a given odd number |
+
+### OOP Concepts
+
+| Program | Description |
+|---------|-------------|
+| [`InheritanceMultiLevel`](InheritanceMultiLevel/) | Demonstrates multilevel inheritance (Employee -> Manager -> SeniorManager) with salary computation |
+
+### Utility Programs
+
+| Program | Description |
+|---------|-------------|
+| [`Bill`](Bill/) | Generates a formatted shop bill showing item names, prices, and total |
+| [`SMS`](SMS/) | Calculates characters used and remaining in a 160-character SMS message |
+
+## Project Structure
+
+```
+JavaAssignment/
+├── <program-name>/
+│   ├── <ProgramName>.java   # Source code with comments
+│   └── <ProgramName>.class  # Compiled bytecode
+├── ...
+└── README.md
+```
+
+## Author
+
+Created for learning and practicing core Java programming concepts.
